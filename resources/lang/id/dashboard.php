@@ -23,8 +23,9 @@ return [
         'roles' => 'Wewenang',
         'users' => 'Pengguna',
         'profile' => 'Profil',
-        'logout' => 'Logout',
+        'logout' => 'Keluar',
         'pages' => 'Halaman',
+        'my_profile' => 'Profil Saya',
 
     ],
     'label' => [

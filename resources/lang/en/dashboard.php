@@ -25,6 +25,7 @@ return [
         'profile' => 'Profile',
         'logout' => 'Logout',
         'pages' => 'Pages',
+        'my_profile' => 'My Profile',
     ],
     'label' => [
         'logged_in_as' => 'Logged in as',

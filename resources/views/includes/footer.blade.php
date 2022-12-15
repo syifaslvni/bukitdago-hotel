@@ -1,4 +1,4 @@
-  {{-- <!-- ======= Footer ======= -->
+  {{--  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
       &copy; Copyright <strong><span>Bukit Dago Hotel</span></strong>. All Rights Reserved 2022
@@ -11,10 +11,10 @@
       Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </footer>
-  <!-- End Footer --> --}}
+  <!-- End Footer -->  --}}
 
 
-  {{-- <footer class="py-4 bg-light mt-auto">
+  {{--  <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
        <div class="d-flex align-items-center justify-content-between small">
           <div class="text-muted">Copyright © Your Website 2021</div>
@@ -25,4 +25,4 @@
           </div>
        </div>
     </div>
- </footer> --}}
+ </footer>  --}}

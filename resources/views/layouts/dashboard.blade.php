@@ -13,6 +13,12 @@
   @include('includes.style')
   @stack('after-style')
 
+  {{-- css:external --}}
+  @stack('css-external')
+
+  {{-- css-internal --}}
+  @stack('css-internal') 
+
 </head>
 
 <body>
@@ -23,15 +29,15 @@
   <!-- ======= Sidebar ======= -->
     @include('includes.sidebar')
   <!-- End Sidebar-->
-  
+
   <main id="main" class="main">
 
     <div class="pagetitle">
 
       <h1>@yield('title')</h1>
-      
+
       @yield('breadcrumbs')
-      
+
     </div><!-- End Page Title -->
 
     <section class="section dashboard">
@@ -41,7 +47,7 @@
   </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-        @include('includes.footer')nmasakajkdjsackjsacjaskojc
+        @include('includes.footer')
     <!-- End Footer -->
 </body>
 
@@ -49,4 +55,9 @@
 @include('includes.script')
 @stack('after-script')
 
+{{--  javascript:external  --}}
+@stack('javascript-external')
+
+{{--  javascript:internal  --}}
+@stack('javascript-internal')
 </html>

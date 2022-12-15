@@ -4,51 +4,30 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link {{ set_active('dashboard.index') }}" href="{{ route('dashboard.index') }}">
           <i class="bi bi-grid"></i>
           {{ trans('dashboard.link.dashboard') }}
         </a>
       </li><!-- End Dashboard Nav -->
 
-      {{-- <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i>
-          {{ trans('dashboard.link.room') }}
-          <i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="components-alerts.html">
-              <i class="bi bi-circle"></i>
-              {{ trans('dashboard.link.categories') }}
-            </a>
-          </li>
-          <li>
-            <a href="components-badges.html">
-              <i class="bi bi-circle"></i>
-              {{ trans('dashboard.link.room') }}
-            </a>
-          </li>
-        </ul> --}}
-
       <li class="nav-heading">{{ trans('dashboard.link.room') }}</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
-            <i class="bi bi-menu-button-wide"></i>
-            {{ trans('dashboard.link.categories') }}
+        <a class="nav-link {{ set_active(['categories.index', 'categories.create']) }}" href="{{ route('categories.index') }}">
+          <i class="bi bi-menu-button-wide"></i>
+          {{ trans('dashboard.link.categories') }}
         </a>
-      </li><!-- Categories Page Nav -->
+      </li><!-- End Categories Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
+        <a class="nav-link " href="pages-faq.html">
             <i class="bi bi-tags"></i>
             {{ trans('dashboard.link.tags') }}
         </a>
       </li><!-- Fasility Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
+        <a class="nav-link " href="pages-faq.html">
             <i class="bi bi-house-door"></i>
             {{ trans('dashboard.link.room') }}
         </a>
@@ -57,49 +36,49 @@
       <li class="nav-heading">{{ trans('dashboard.link.pages') }}</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
+        <a class="nav-link " href="users-profile.html">
           <i class="bi bi-person"></i>
           <span>Profile</span>
         </a>
       </li><!-- End Profile Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
+        <a class="nav-link " href="pages-faq.html">
             <i class="bi bi-card-image"></i>
             {{ trans('dashboard.link.file_manager') }}
         </a>
       </li><!-- End File Manager Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
+        <a class="nav-link " href="pages-contact.html">
           <i class="bi bi-envelope"></i>
           <span>Contact</span>
         </a>
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
+        <a class="nav-link " href="pages-register.html">
           <i class="bi bi-card-list"></i>
           <span>Register</span>
         </a>
       </li><!-- End Register Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-login.html">
+        <a class="nav-link " href="pages-login.html">
           <i class="bi bi-box-arrow-in-right"></i>
           <span>Login</span>
         </a>
       </li><!-- End Login Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-error-404.html">
+        <a class="nav-link " href="pages-error-404.html">
           <i class="bi bi-dash-circle"></i>
           <span>Error 404</span>
         </a>
       </li><!-- End Error 404 Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-blank.html">
+        <a class="nav-link " href="pages-blank.html">
           <i class="bi bi-file-earmark"></i>
           <span>Blank</span>
         </a>
